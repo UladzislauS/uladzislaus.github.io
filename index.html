@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ulad Sipaila</title>
+<meta name="description" content="Ulad Sipaila — video contributor on Shutterstock.">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #fcfcfb;
+    --text: #0b0b0b;
+    --muted: #52514e;
+    --line: #e2e1dc;
+    --link: #1c5cab;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #1a1a19;
+      --text: #ffffff;
+      --muted: #c3c2b7;
+      --line: #2e2e2c;
+      --link: #86b6ef;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 72px 20px 96px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .role { color: var(--muted); margin: 0 0 20px; }
+  h2 { font-size: 18px; margin: 48px 0 8px; padding-top: 24px; border-top: 1px solid var(--line); }
+  p { margin: 0 0 14px; }
+  a { color: var(--link); text-underline-offset: 3px; }
+  ul.links { list-style: none; padding: 0; margin: 0; display: flex; gap: 20px; flex-wrap: wrap; }
+  code { font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ulad Sipaila</h1>
+  <p class="role">Video contributor on Shutterstock</p>
+  <ul class="links">
+    <li><a href="https://www.shutterstock.com/g/Ulad+Sipaila">Shutterstock portfolio</a></li>
+    <li><a href="https://github.com/UladzislauS">GitHub</a></li>
+  </ul>
+
+  <h2>shutter-mapper</h2>
+  <p>
+    A personal research tool I'm building for my contributor work. It maps which parts of a city
+    are already covered by Shutterstock editorial video (starting with Amsterdam), so I can plan
+    shoots for the places that aren't.
+  </p>
+  <p>
+    It uses the Shutterstock API read-only, to search clip metadata. The data stays on my own
+    machine, and no Shutterstock content is redistributed or published.
+  </p>
+</main>
+</body>
+</html>
